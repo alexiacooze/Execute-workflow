@@ -1,0 +1,16 @@
+.execute-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background-color: #007bff;
+  color: white;
+  border: black .1rem solid;
+  font-weight: 550;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.execute-button:hover {
+  background-color: #0056b3;
+}

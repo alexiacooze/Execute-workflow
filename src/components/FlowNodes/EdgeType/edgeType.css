@@ -1,0 +1,13 @@
+/* buttonedge.css */
+.edgebutton {
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.edgebutton:hover {
+  background: lightgrey;
+}
