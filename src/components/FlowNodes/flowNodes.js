@@ -113,10 +113,8 @@ function Flow() {
   );
 
   const executeWorkflow = useCallback(async () => {
-    const apiUrl =
-      process.env.NODE_ENV === "production"
-        ? "https://python-script-takehome-urxqnrtkla-uc.a.run.app/execute"
-        : "/api/execute";
+    const apiUrl = "/api/execute";
+    console.log("API URL:", apiUrl);
 
     setLoading(true);
     let results = {};
